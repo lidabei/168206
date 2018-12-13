@@ -10,3 +10,5 @@
  - merge_sort.py 归并算法
  
  - sum.py 数字列表的和计算
+ 
+ - hit-cog.py 从起点hit到终点cog路径算法
