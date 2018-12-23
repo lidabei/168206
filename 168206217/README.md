@@ -12,3 +12,5 @@
  - sum.py 数字列表的和计算
  
  - hit-cog.py 从起点hit到终点cog路径算法
+ 
+ - zuanshi.py 谁偷了钻石计算
