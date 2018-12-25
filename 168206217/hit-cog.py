@@ -19,11 +19,31 @@ def find_path(start,end,paths):
         for word in visited:
              for i in range(len(word)):
                  for j in range(ord('a'),ord('z')+1):
-                    word = word[:i] + chr(j) + word[i+1:]
-                    print(word)
-                    if word in adiction:
-                        visited.append(word)
+                    newword = word[:i] + chr(j) + word[i+1:]
+                    if newword in paths and newword not in visited:
+                        visited.append(newword)
+        print('所有遍历过的节点',visited,'\n')
+        print('构建出来的散列表如下')
+        for k,v in graph.items():
+            print(k,"  ",v)
+        print('\n')
+        return graph
+start="hitc"
+end="cogc"
+adict=['hotc','dotc',dogc','lotc','locc','logc']
+       
+aaa=find_path(start,end,adict)
+       
+jieguo=[]
+adict.append(start)
+jieguo.append(end)
+while end!=start:
+       for word in adict:
+           if end in aaa[word]
+               end=word
+               jieguo.append(end)
+jieguo.reverse()
+print('最终转换路径如此列表顺序：',jieguo)
+   
+       
            
-find_path(start,end,adiction)
-os.system("pause")
-        
