@@ -14,3 +14,5 @@
  - hit-cog.py 从起点hit到终点cog路径算法
  
  - zuanshi.py 谁偷了钻石计算
+ 
+ - grill.py 烧烤架问题
